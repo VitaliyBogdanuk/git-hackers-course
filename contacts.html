@@ -4,17 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        @media (max-width:1024px) {
+            .my-container {
+                flex-flow: column-reverse;
+            }
+        }
+    </style>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li>Main</li>
-            <li>About Us</li>
-            <li>Gallery</li>
-            <li>Contacts</li>
-        </ul>
-    </nav>
-    test message
-    <a>tel 098-1234-122</a>
+    <div class="row">
+        <div class="col-lg-7 col-12" style="background-color: #000A24; padding: 5% 5% 5% 20%;">
+            <p style="color: white;">Ви постраждали від наслідків війни в Україні - зареєструйтесь, щоб прийняти участь в програмі:</p>
+            <button style="width: 351px; padding: 15px 60px; background-color: #2D5BD0; color: white;">Зареєструватись</button>
+        </div>
+        <div class="col-lg-5 d-none d-lg-flex p-0">
+            <img src="Rectangle 10.jpg" width="100%">
+        </div>
+        <div class="" style="max-width: 65%; margin: 0 auto;">
+            <div class="row my-container" style="justify-content: space-between;">
+                <div class="col-lg-4">
+                    <p>
+                        Залучаємо фінансові, матеріальні ресурси і експертизу від країн, фондів, підприємств, фізичних осіб із-за кордону в Україну - як для прямої, так і непрямої підтримки програми, а відтак української армії, українського народу.
+                    </p>
+                    <img src="Rectangle 3200.png" width="100%" alt="">
+                    <p class="d-lg-none d-block">
+                        Якнайбільше ресурсів залучатиметься в Україну, а не виводитимуться з неї, перезапуститься і запрацює українська економіка, створюватимуться нові робочі місця для українців (особливо ті, які найбільше постраждали від війни росії проти України). А все це буде працювати на оборону, стрімкий розвиток України і персональний добробут кожного українця і його сім'ї.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="Mask group.png" width="100%" alt="">
+                    <p class="d-lg-block d-none">
+                        Якнайбільше ресурсів залучатиметься в Україну, а не виводитимуться з неї, перезапуститься і запрацює українська економіка, створюватимуться нові робочі місця для українців (особливо ті, які найбільше постраждали від війни росії проти України). А все це буде працювати на оборону, стрімкий розвиток України і персональний добробут кожного українця і його сім'ї.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
